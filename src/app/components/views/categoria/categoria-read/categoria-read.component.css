@@ -14,15 +14,42 @@
     font-weight: 500;
 }
 
+button{
+
+    margin-bottom: .8rem;
+    
+}
+
+button.mat-primary {
+    color: rgb(212, 207, 201);
+}
+
 table{
     width: 100%;
     background-color: rgb(39, 39, 37);
 }
 
 .mat-header-cell {
-    color: rgb(212, 207, 2017);
+    color: rgb(212, 207, 201);
 }
 
 .mat-cell{
-    color: rgb(212, 207, 2017); 
+    color: rgb(212, 207, 201); 
+}
+
+.livros{
+    color:  rgb(37, 125, 240); 
+}
+
+.edit{
+    color: rgb(206, 173, 24); 
+}
+
+.delete{
+    color: rgb(228, 56, 56); 
+    margin-left: .5rem;
+}
+
+.mat-header{
+    width: 5rem;
 }
