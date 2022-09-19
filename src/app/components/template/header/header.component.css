@@ -1,0 +1,23 @@
+img{
+    height: 3rem;
+}
+
+.header{
+    justify-content: center;
+    height: 10%;
+}
+
+span{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    padding-left: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.mat-toolbar {
+    background: #1b1b1b;
+    color: rgba(255, 251, 251, 0.87);
+}

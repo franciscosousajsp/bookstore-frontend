@@ -1,0 +1,12 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+    height: 5%;
+}
+
+.mat-toolbar {
+    background: #1b1b1b;
+    color: rgba(255, 251, 251, 0.87);
+}

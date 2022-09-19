@@ -1,0 +1,18 @@
+.container{
+    height: 85%;
+  
+    background-color: rgb(34, 34, 32);
+}
+
+.fundo{
+    background-color: rgb(39, 39, 37);
+   
+}
+
+i{
+    padding-right: .6rem;
+}
+
+.mat-list-base .mat-list-item {
+    color: white;
+}
