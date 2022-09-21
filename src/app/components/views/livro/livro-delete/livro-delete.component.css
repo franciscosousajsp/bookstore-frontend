@@ -1,0 +1,41 @@
+form{
+    text-align: center;
+    width: 70%;
+    margin: 2rem auto 0 auto;
+}
+
+mat-label{
+    color: white;
+}
+
+::placeholder{
+    color: rgb(136, 138, 214);
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+
+.font{
+    color: rgb(122, 106, 160);
+}
+
+
+.form{
+    width: 100%;
+}
+
+.buttons{
+    width: 100%;
+    text-align: start;
+}
+
+button{
+    margin-right: .5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}

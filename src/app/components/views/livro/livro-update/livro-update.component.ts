@@ -36,16 +36,6 @@ export class LivroUpdateComponent implements OnInit {
     this.findById();
   }
 
-  create():void{
-    this.service.create(this.livro, this.id_cat).subscribe((resposta) =>{
-      this.router.navigate([`categorias/${this.id_cat}/livros`]);
-      this.service.mensagem("Livro criado com sucesso")
-    }, err =>{
-      this.router.navigate([`categorias/${this.id_cat}/livros`]);
-      this.service.mensagem("Erro ao criar novo livro! Tente mais tarde.")
-    })
-  }
-
   cancel(): void{
     this.router.navigate([`categorias/${this.id_cat}/livros`])
   }
